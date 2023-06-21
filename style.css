@@ -111,3 +111,31 @@ figcaption {
   font-weight: 800;
   padding-top: 20px;
 }
+.herocontenu{
+  background-color: #3882f6;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #e5e7eb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  border-radius: 5px;
+}
+.hero4{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.bouton{
+  border: 1px solid white;
+}
+footer{
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
