@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   line-height: 1;
+
 }
 /* Style my navbar */
 nav {
@@ -27,26 +30,66 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-size: 18px;
 }
+/* Styling our first hero section */
 .hero {
   background-color: #1f2937;
-  color: white;
+  color: #F9FAF8;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  
 }
 .image {
-  background-color: aliceblue;
-  width: 300px;
-  height: 100px;
+  background-color: #6d747d;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hero p {
   width: 400px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 .hero h1 {
   font-size: 48px;
   font-weight: 800;
   width: 400px;
+  font-family: 'Roboto', sans-serif;
 }
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/* Styling our second hero section */
+
+.hero2 h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.contenu p{
+  max-width: 200px;
+  text-align: center;
+  
+}
+
