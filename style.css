@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1;
 }
 /* Style my navbar */
 nav {
@@ -22,4 +23,30 @@ li {
 ul {
   display: flex;
   gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.hero {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.image {
+  background-color: aliceblue;
+  width: 300px;
+  height: 100px;
+}
+.hero p {
+  width: 400px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  width: 400px;
 }
