@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Style my navbar */
+nav {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  font-size: 24px;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
