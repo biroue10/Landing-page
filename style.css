@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   line-height: 1;
-
 }
 /* Style my navbar */
 nav {
@@ -35,14 +34,13 @@ a {
 /* Styling our first hero section */
 .hero {
   background-color: #1f2937;
-  color: #F9FAF8;
+  color: #f9faf8;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
   padding-bottom: 70px;
   padding-top: 50px;
-  
 }
 .image {
   background-color: #6d747d;
@@ -55,41 +53,61 @@ a {
 .hero p {
   width: 400px;
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 .hero h1 {
   font-size: 48px;
   font-weight: 800;
   width: 400px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-button{
-    background-color: #3882f6;
-    color: #F9FAF8;
-    width: 100px;
-    padding: 5px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 /* Styling our second hero section */
 
-.hero2 h2{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.hero2 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.contenu{
-    display: flex;
-    justify-content: center;
-    gap: 52px;
+.hero2 {
+  padding-bottom: 40px;
 }
-.contenu p{
+.contenu {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.contenu p {
   max-width: 200px;
   text-align: center;
-  
 }
-
+.hero3 {
+  background-color: #e5e7eb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hero3 div p {
+  font-style: italic;
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+figcaption{
+  margin-right: auto;
+  max-width: 500px;
+  margin: auto;
+  text-align: right;
+  font-weight: 800;
+  padding-top: 20px;
+}
